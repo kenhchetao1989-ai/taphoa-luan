@@ -3,68 +3,77 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#176b38">
-<title>Lê Gia Foods | Giới thiệu doanh nghiệp</title>
-<meta name="description" content="Giới thiệu Công ty TNHH Lê Gia Foods, sản phẩm và thông tin liên hệ.">
+<meta name="theme-color" content="#237a45">
+<title>Tạp Hóa Luận | Hàng thiết yếu mỗi ngày</title>
+<meta name="description" content="Tạp Hóa Luận – cửa hàng tạp hóa phục vụ nhu cầu mua sắm hằng ngày.">
 <style>
-:root{--green:#176b38;--deep:#104b2b;--light:#f4f8e9;--gold:#f4c542;--ink:#193326}
-*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#f7f8f1;line-height:1.6}
-header{background:linear-gradient(135deg,#104b2b,#218447);color:#fff;padding:42px 18px 48px;text-align:center}
-.wrap{width:min(1080px,92%);margin:auto}.eyebrow{text-transform:uppercase;letter-spacing:.13em;font-weight:700;color:#e8f3cf}
-h1{font-size:clamp(2rem,6vw,3.6rem);line-height:1.1;margin:12px 0}header p{font-size:1.08rem;max-width:700px;margin:16px auto 0}
-.pill{display:inline-block;background:var(--gold);color:#163e25;padding:8px 15px;border-radius:30px;font-weight:800;margin-top:22px}
-main{padding:28px 0 46px}.hero-card{background:#fff;border-radius:22px;padding:clamp(22px,5vw,42px);box-shadow:0 10px 35px #163e2510;margin-top:-25px;position:relative}
-h2{color:var(--green);font-size:clamp(1.45rem,4vw,2rem);margin:0 0 12px}
-.intro{font-size:1.06rem}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:24px 0}
-.card{background:var(--light);border:1px solid #e1ebd5;border-radius:16px;padding:20px}.icon{font-size:1.8rem}.card h3{margin:8px 0;color:var(--deep)}
-.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:18px}
-.product{background:#fff;border:1px solid #e7eadf;border-radius:14px;padding:17px;text-align:center;font-weight:700}.product span{display:block;font-size:2rem;margin-bottom:7px}
-.contact{background:var(--deep);color:#fff;border-radius:20px;padding:25px;margin-top:24px}.contact h2{color:#fff}.contact a{color:#ffdf68;font-weight:700;text-decoration:none}
-.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:18px}.btn{display:inline-block;padding:12px 18px;border-radius:10px;background:var(--gold);color:#173d24;text-decoration:none;font-weight:800}.btn.secondary{background:#fff;color:var(--deep)}
-footer{text-align:center;color:#617266;padding:20px;font-size:.9rem}
-.notice{font-size:.88rem;color:#607264;margin-top:18px}
+:root{--green:#237a45;--dark:#164d2d;--mint:#eaf6e9;--cream:#fffaf0;--orange:#f59e0b;--ink:#24352a;--muted:#657568}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fbfcf8;color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.55}
+a{color:inherit}.wrap{width:min(1120px,92%);margin:auto}
+.topbar{background:var(--dark);color:white;font-size:.9rem;padding:8px 0}.topbar .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+nav{background:white;border-bottom:1px solid #e8eee6;position:sticky;top:0;z-index:5}.navin{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 0}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:900;font-size:1.3rem;color:var(--dark)}.logo{display:grid;place-items:center;width:44px;height:44px;border-radius:14px;background:var(--mint);font-size:1.7rem}
+.links{display:flex;gap:20px;align-items:center}.links a{text-decoration:none;font-weight:700;font-size:.95rem}.cart{background:var(--green);color:#fff;padding:9px 13px;border-radius:12px;border:0;font-weight:800;cursor:pointer}
+.hero{background:linear-gradient(110deg,#edf8e9 0%,#fff8e7 100%);padding:50px 0}.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:28px}.tag{display:inline-block;background:#d8efce;color:var(--dark);font-weight:800;padding:7px 12px;border-radius:30px;font-size:.85rem}
+h1{font-size:clamp(2.2rem,5.6vw,4.3rem);line-height:1.06;letter-spacing:-.04em;color:var(--dark);margin:16px 0}.hero p{font-size:1.1rem;color:#526454;max-width:580px}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.btn{display:inline-block;text-decoration:none;border:0;border-radius:12px;padding:12px 17px;font-weight:800;cursor:pointer;background:var(--green);color:#fff}.btn.alt{background:white;color:var(--dark);border:1px solid #dce7d9}
+.hero-art{min-height:270px;border-radius:28px;background:#fff;padding:20px;display:grid;place-items:center;box-shadow:0 15px 45px #234e2510}.basket{font-size:clamp(5rem,13vw,9rem);text-align:center}.mini-items{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}.mini-items span{background:var(--cream);padding:8px 12px;border-radius:20px}
+section{padding:42px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:20px}h2{margin:0;color:var(--dark);font-size:clamp(1.6rem,3vw,2.2rem)}.sub{color:var(--muted);margin:5px 0 0}
+.searchrow{display:flex;gap:10px;flex-wrap:wrap}.searchrow input{padding:12px 14px;border:1px solid #dce5d9;border-radius:12px;min-width:240px;font:inherit;outline-color:var(--green)}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0 22px}.filter{border:1px solid #dbe6d7;background:#fff;padding:8px 13px;border-radius:30px;cursor:pointer;font-weight:700;color:#526454}.filter.active{background:var(--green);border-color:var(--green);color:white}
+.products{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.product{background:#fff;border:1px solid #e8eee5;border-radius:18px;padding:16px;display:flex;flex-direction:column;min-width:0;box-shadow:0 5px 20px #1a4a2005}.product-emoji{height:110px;display:grid;place-items:center;background:var(--cream);border-radius:13px;font-size:3.7rem}.product h3{font-size:1rem;margin:13px 0 4px}.product .category{color:var(--muted);font-size:.85rem}.price-row{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:auto;padding-top:12px}.price{color:var(--green);font-weight:900}.add{background:#e7f4e4;border:0;color:var(--dark);font-weight:900;border-radius:10px;padding:8px 11px;cursor:pointer}.add:hover{background:#d1eacb}
+.empty{display:none;padding:22px;background:white;border-radius:12px;color:var(--muted)}
+.features{background:#f0f7ed}.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.feature{background:#fff;padding:22px;border-radius:16px}.feature .emoji{font-size:2rem}.feature h3{margin:8px 0;color:var(--dark)}
+.contact{background:var(--dark);color:white;padding:35px 0}.contact h2{color:white}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px;align-items:center}.contact p{color:#e2eee4}.contact a{color:#ffe08a;font-weight:800;text-decoration:none}
+footer{padding:18px;text-align:center;color:var(--muted);font-size:.9rem}
+.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#183e28;color:white;padding:12px 18px;border-radius:12px;box-shadow:0 8px 25px #0002;display:none;z-index:10}
+@media(max-width:800px){.hero-grid{grid-template-columns:1fr}.hero-art{min-height:200px}.products{grid-template-columns:repeat(2,1fr)}.feature-grid{grid-template-columns:1fr}.links{gap:10px}.links a:not(.cart){display:none}.contact-grid{grid-template-columns:1fr}}
+@media(max-width:390px){.products{gap:10px}.product{padding:10px}.product-emoji{height:90px}.searchrow input{min-width:0;width:100%}}
 </style>
 </head>
 <body>
-<header>
- <div class="wrap">
-  <div class="eyebrow">Chất lượng • Uy tín • Đồng hành</div>
-  <h1>CÔNG TY TNHH<br>LÊ GIA FOODS</h1>
-  <p>Đồng hành cùng cửa hàng và người tiêu dùng với các sản phẩm thực phẩm, sữa, bánh kẹo và hàng tiêu dùng thiết yếu.</p>
-  <div class="pill">TRUY XUẤT NGUỒN GỐC · THÔNG TIN DOANH NGHIỆP</div>
- </div>
-</header>
-<main class="wrap">
- <section class="hero-card">
-  <h2>Chào mừng đến với Lê Gia Foods</h2>
-  <p class="intro">Lê Gia Foods hướng đến việc cung cấp các mặt hàng tiêu dùng thiết yếu phục vụ nhu cầu hằng ngày. Chúng tôi trân trọng sự tin tưởng của khách hàng và đối tác, luôn chú trọng thông tin sản phẩm rõ ràng, phục vụ tận tâm và hợp tác lâu dài.</p>
-  <div class="grid">
-   <article class="card"><div class="icon">🌿</div><h3>Chọn lọc sản phẩm</h3><p>Danh mục hàng hóa đa dạng, đáp ứng nhu cầu của cửa hàng và người tiêu dùng.</p></article>
-   <article class="card"><div class="icon">🔎</div><h3>Thông tin minh bạch</h3><p>Khuyến khích khách hàng kiểm tra nhãn hàng, hạn sử dụng và thông tin nguồn gốc trên bao bì sản phẩm.</p></article>
-   <article class="card"><div class="icon">🤝</div><h3>Đồng hành cùng đối tác</h3><p>Xây dựng mối quan hệ hợp tác dựa trên sự tin cậy, trách nhiệm và phục vụ chu đáo.</p></article>
-  </div>
-  <h2>Nhóm sản phẩm</h2>
-  <p>Một số nhóm hàng có thể được giới thiệu tại cửa hàng:</p>
-  <div class="products">
-   <div class="product"><span>🥛</span>Sữa và thức uống</div>
-   <div class="product"><span>🍪</span>Bánh và bánh kẹo</div>
-   <div class="product"><span>🍜</span>Mì và đồ ăn nhẹ</div>
-   <div class="product"><span>🧃</span>Thực phẩm đóng gói</div>
-   <div class="product"><span>🛒</span>Hàng tiêu dùng</div>
-  </div>
-  <section class="contact">
-   <h2>Thông tin liên hệ</h2>
-   <p><strong>Doanh nghiệp:</strong> Công ty TNHH Lê Gia Foods</p>
-   <p><strong>Điện thoại:</strong> <a href="tel:0906483444">0906 483 444</a></p>
-   <p><strong>Địa chỉ:</strong> Đường Nguyễn Chích, phường Bàn Thạch, thành phố Đà Nẵng</p>
-   <div class="actions">
-    <a class="btn" href="tel:0906483444">☎ Gọi điện</a>
-    <a class="btn secondary" href="https://www.google.com/maps/search/?api=1&query=Đường+Nguyễn+Chích+phường+Bàn+Thạch+Đà+Nẵng" target="_blank" rel="noopener">⌖ Xem bản đồ</a>
-   </div>
-  </section>
-  <p class="notice">Lưu ý: Trang này giới thiệu doanh nghiệp và nhóm sản phẩm. Thông tin pháp lý, danh mục sản phẩm cụ thể và dữ liệu truy xuất từng lô hàng cần được doanh nghiệp xác nhận, bổ sung trước khi công bố chính thức.</p>
- </section>
-</main>
-<footer>© Lê Gia Foods · Trang giới thiệu doanh nghiệp</footer>
-</body>
-</html>
+<div class="topbar"><div class="wrap"><span>🛒 Tạp Hóa Luận – Hàng thiết yếu mỗi ngày</span><span>Thân thiện · Tiện lợi · Gần gũi</span></div></div>
+<nav><div class="wrap navin">
+<a class="brand" href="#"><span class="logo">🛍️</span><span>TẠP HÓA LUẬN</span></a>
+<div class="links"><a href="#san-pham">Sản phẩm</a><a href="#ve-chung-toi">Về cửa hàng</a><a href="#lien-he">Liên hệ</a><button class="cart" id="cartBtn">🛒 Giỏ hàng <span id="cartCount">0</span></button></div>
+</div></nav>
+<header class="hero"><div class="wrap hero-grid">
+<div><span class="tag">GÓC NHỎ ĐẦY ĐỦ TIỆN NGHI</span><h1>Mua sắm mỗi ngày,<br>thật tiện lợi!</h1>
+<p>Tạp Hóa Luận giới thiệu các mặt hàng thiết yếu cho gia đình: bánh kẹo, sữa, mì, nước uống và nhiều sản phẩm dùng hằng ngày.</p>
+<div class="hero-actions"><a class="btn" href="#san-pham">Khám phá sản phẩm ↓</a><a class="btn alt" href="#lien-he">Thông tin cửa hàng</a></div></div>
+<div class="hero-art"><div><div class="basket">🧺</div><div class="mini-items"><span>🥛 Sữa</span><span>🍪 Bánh kẹo</span><span>🍜 Mì gói</span><span>🧃 Nước uống</span></div></div></div>
+</div></header>
+<main>
+<section id="san-pham"><div class="wrap">
+<div class="section-head"><div><h2>Sản phẩm tiêu biểu</h2><p class="sub">Danh mục mẫu – có thể chỉnh sửa theo hàng hóa thực tế.</p></div>
+<div class="searchrow"><input id="search" type="search" placeholder="Tìm sản phẩm..." aria-label="Tìm sản phẩm"></div></div>
+<div class="filters" id="filters"><button class="filter active" data-cat="Tất cả">Tất cả</button><button class="filter" data-cat="Bánh kẹo">Bánh kẹo</button><button class="filter" data-cat="Sữa">Sữa</button><button class="filter" data-cat="Mì và đồ ăn">Mì và đồ ăn</button><button class="filter" data-cat="Nước uống">Nước uống</button><button class="filter" data-cat="Gia vị">Gia vị</button></div>
+<div class="products" id="products">
+<article class="product" data-name="Bánh quy" data-cat="Bánh kẹo"><div class="product-emoji">🍪</div><h3>Bánh quy</h3><div class="category">Bánh kẹo</div><div class="price-row"><span class="price">Giá tại cửa hàng</span><button class="add">+ Thêm</button></div></article>
+<article class="product" data-name="Bánh snack" data-cat="Bánh kẹo"><div class="product-emoji">🍿</div><h3>Bánh snack</h3><div class="category">Bánh kẹo</div><div class="price-row"><span class="price">Giá tại cửa hàng</span><button class="add">+ Thêm</button></div></article>
+<article class="product" data-name="Sữa tươi" data-cat="Sữa"><div class="product-emoji">🥛</div><h3>Sữa tươi</h3><div class="category">Sữa</div><div class="price-row"><span class="price">Giá tại cửa hàng</span><button class="add">+ Thêm</button></div></article>
+<article class="product" data-name="Sữa chua" data-cat="Sữa"><div class="product-emoji">🥤</div><h3>Sữa chua uống</h3><div class="category">Sữa</div><div class="price-row"><span class="price">Giá tại cửa hàng</span><button class="add">+ Thêm</button></div></article>
+<article class="product" data-name="Mì ăn liền" data-cat="Mì và đồ ăn"><div class="product-emoji">🍜</div><h3>Mì ăn liền</h3><div class="category">Mì và đồ ăn</div><div class="price-row"><span class="price">Giá tại cửa hàng</span><button class="add">+ Thêm</button></div></article>
+<article class="product" data-name="Đồ hộp" data-cat="Mì và đồ ăn"><div class="product-emoji">🥫</div><h3>Thực phẩm đóng hộp</h3><div class="category">Mì và đồ ăn</div><div class="price-row"><span class="price">Giá tại cửa hàng</span><button class="add">+ Thêm</button></div></article>
+<article class="product" data-name="Nước suối" data-cat="Nước uống"><div class="product-emoji">💧</div><h3>Nước suối</h3><div class="category">Nước uống</div><div class="price-row"><span class="price">Giá tại cửa hàng</span><button class="add">+ Thêm</button></div></article>
+<article class="product" data-name="Nước ngọt" data-cat="Nước uống"><div class="product-emoji">🧃</div><h3>Nước giải khát</h3><div class="category">Nước uống</div><div class="price-row"><span class="price">Giá tại cửa hàng</span><button class="add">+ Thêm</button></div></article>
+<article class="product" data-name="Nước mắm" data-cat="Gia vị"><div class="product-emoji">🧂</div><h3>Gia vị nấu ăn</h3><div class="category">Gia vị</div><div class="price-row"><span class="price">Giá tại cửa hàng</span><button class="add">+ Thêm</button></div></article>
+<article class="product" data-name="Dầu ăn" data-cat="Gia vị"><div class="product-emoji">🫗</div><h3>Dầu ăn</h3><div class="category">Gia vị</div><div class="price-row"><span class="price">Giá tại cửa hàng</span><button class="add">+ Thêm</button></div></article>
+<article class="product" data-name="Mì chính" data-cat="Gia vị"><div class="product-emoji">🧂</div><h3>Gia vị tiện dụng</h3><div class="category">Gia vị</div><div class="price-row"><span class="price">Giá tại cửa hàng</span><button class="add">+ Thêm</button></div></article>
+<article class="product" data-name="Kẹo" data-cat="Bánh kẹo"><div class="product-emoji">🍬</div><h3>Kẹo các loại</h3><div class="category">Bánh kẹo</div><div class="price-row"><span class="price">Giá tại cửa hàng</span><button class="add">+ Thêm</button></div></article>
+</div><p class="empty" id="empty">Không tìm thấy sản phẩm phù hợp.</p>
+</div></section>
+<section class="features" id="ve-chung-toi"><div class="wrap"><div class="section-head"><div><h2>Về Tạp Hóa Luận</h2><p class="sub">Cửa hàng tạp hóa phục vụ những nhu cầu quen thuộc mỗi ngày.</p></div></div>
+<div class="feature-grid"><article class="feature"><div class="emoji">🧺</div><h3>Đa dạng mặt hàng</h3><p>Từ đồ ăn nhẹ, sữa, nước uống đến các mặt hàng thiết yếu cho gia đình.</p></article><article class="feature"><div class="emoji">💚</div><h3>Gần gũi, thân thiện</h3><p>Ưu tiên trải nghiệm mua sắm thuận tiện và thông tin sản phẩm rõ ràng.</p></article><article class="feature"><div class="emoji">📱</div><h3>Dễ dàng liên hệ</h3><p>Khách hàng có thể bổ sung thông tin liên hệ để hỏi hàng hoặc đặt mua.</p></article></div>
+</div></section>
+<section class="contact" id="lien-he"><div class="wrap contact-grid"><div><h2>Liên hệ Tạp Hóa Luận</h2><p>Thay thông tin mẫu bên dưới bằng số điện thoại, địa chỉ và kênh đặt hàng chính thức của cửa hàng.</p></div><div><p><strong>📍 Địa chỉ:</strong> <em>Vui lòng cập nhật địa chỉ cửa hàng</em></p><p><strong>☎ Điện thoại:</strong> <em>Vui lòng cập nhật số điện thoại</em></p><p><strong>🕒 Giờ mở cửa:</strong> <em>Vui lòng cập nhật giờ hoạt động</em></p></div></div></section>
+</main><footer>© <span id="year"></span> Tạp Hóa Luận · Website giới thiệu cửa hàng</footer><div class="toast" id="toast" role="status"></div>
+<script>
+const products=[...document.querySelectorAll('.product')];let category='Tất cả',count=0;
+function filterProducts(){const q=document.querySelector('#search').value.trim().toLocaleLowerCase('vi');let shown=0;products.forEach(p=>{const okCat=category==='Tất cả'||p.dataset.cat===category;const okText=p.dataset.name.toLocaleLowerCase('vi').includes(q)||p.dataset.cat.toLocaleLowerCase('vi').includes(q);p.style.display=okCat&&okText?'flex':'none';if(okCat&&okText)shown++});document.querySelector('#empty').style.display=shown?'none':'block'}
+document.querySelector('#search').addEventListener('input',filterProducts);
+document.querySelectorAll('.filter').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.filter').forEach(x=>x.classList.remove('active'));b.classList.add('active');category=b.dataset.cat;filterProducts()}));
+function notify(msg){const t=document.querySelector('#toast');t.textContent=msg;t.style.display='block';clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>t.style.display='none',2300)}
+document.querySelectorAll('.add').forEach(b=>b.addEventListener('click',()=>{count++;document.querySelector('#cartCount').textContent=count;notify('Đã thêm sản phẩm vào giỏ hàng mẫu. Giỏ hàng chưa gửi đơn đặt hàng.')}));document.querySelector('#cartBtn').addEventListener('click',()=>notify('Giỏ hàng mẫu có '+count+' lượt thêm sản phẩm.'));document.querySelector('#year').textContent=new Date().getFullYear();
+</script>
+</body></html>
